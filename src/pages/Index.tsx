@@ -1,7 +1,7 @@
-import PortfolioGenerator from "@/components/PortfolioGenerator";
+import SiteBuilder from "@/components/SiteBuilder";
 
 const Index = () => {
-  return <PortfolioGenerator />;
+  return <SiteBuilder />;
 };
 
 export default Index;
