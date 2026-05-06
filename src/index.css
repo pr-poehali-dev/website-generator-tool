@@ -105,6 +105,16 @@
   }
 }
 
+@layer components {
+  .input-field {
+    @apply w-full px-3 py-2.5 rounded-lg border border-border bg-background text-foreground text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/40 focus:border-primary transition-all duration-200;
+  }
+
+  .field-label {
+    @apply block text-sm font-medium text-muted-foreground mb-1.5;
+  }
+}
+
 @layer utilities {
   .gradient-text {
     background: linear-gradient(135deg, var(--neon-purple), var(--neon-pink));
