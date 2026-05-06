@@ -23,7 +23,6 @@ const SUGGESTIONS = [
 
 export default function ChatPanel({ messages, prompt, loading, onPromptChange, onGenerate }: Props) {
   const bottomRef = useRef<HTMLDivElement>(null);
-  const inputRef = useRef<HTMLTextAreaElement>(null);
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
